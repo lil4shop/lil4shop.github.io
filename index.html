@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Startup</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Your own stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!--div container et activer le flex box avec le tag d-flex-->
+  <div class="container d-flex align-items-center h-100">
+    <div class="row">
+
+      <header class="text-center col-12">
+        <!--titre de la page et class="text-uppercase" met automatiquement le titre en majuscule. cela vient du bootstrap-->
+        <h1 class="text-uppercase"><strong>the biggest startup event of the year</strong></h1>
+      </header>
+
+      <!--sera entre le header, l'horizontal ligne et la colum--->
+      <div class="buffer col-12"></div>
+
+      <!--Section-->
+      <section class="text-center col-12">
+
+        <!--Ajouter une ligne horizontal avec le tag: hr-->
+        <hr>
+
+        <!--bouton venant du bootstrap pour le find more
+          et on costum le bouton afin de l'agrandir
+          btn, btn-primary et bouton-large sont des class qu'on modifiera dans le css-->
+        <a href="https://mailchi.mp/d59d39e5dddb/gtechnology">
+          <button class="btn btn-primary bouton-large">find more</button>
+        </a>
+
+      </section>
+    </div>
+  </div>
+</body>
+
+</html>
